@@ -118,7 +118,7 @@ document.getElementById('messageInput').onkeypress = (e) => {
 */
 
 peer.on('open', function(id) {
-  link.value = `file:///home/njwoodge/app/boardgame-lobbier/join-lobby.html?token=${id}`;
+  link.value = `woodgern.github.io/boardgame-lobbier/join-lobby.html?token=${id}`;
 });
 
 peer.on('connection', function(conn) {
